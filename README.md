@@ -45,7 +45,7 @@ let bar = element('div',{class: 'barclass'} childComponent)
 ```
 # Example
 ```javascript
-import {element as el} from 'mini-component'
+import {element as el} from '@leslie-johnson/mini-component'
 import Dropdown from './Dropdown'      // Example of imported component function
 
 const burger = el('li',{class:'burger dropdown'},`☰ `) // Text node element
